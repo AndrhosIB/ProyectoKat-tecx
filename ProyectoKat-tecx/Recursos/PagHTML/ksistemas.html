@@ -1,0 +1,429 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/kardex.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#">Especialidad</a>
+                    <ul>
+                        <li><a class="on" href="#">Ing.Software</a></li>
+                        <li><a class="off" href="#">Gestion Empresarial</a></li>
+                    </ul>
+                </li>
+                <li><a href="msistemas.html">Maestros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="principal">
+        <div class="content-superior">
+            <h1 class="nombre">INGENIERIA EN SISTEMAS COMPUTACIONALES</h1>
+        </div>
+        <div class="content">
+            <button class="materia fila1 mostrarModalBtn" data-modal="m1" id="col-1">
+                <p id="clave">ACF-0901</p> Calculo Diferencial
+            </button>
+
+            <button class="materia fila1 mostrarModalBtn" data-modal="m2" id="col-2">
+                <p id="clave">ACF-0902</p>Calculo Integral
+            </button>
+
+            <button class="materia fila1 mostrarModalBtn" data-modal="m3" id="col-3">
+                <p id="clave">ACF-0904</p>Calculo Vectorial
+            </button>
+
+            <button class="materia fila1 mostrarModalBtn" data-modal="m4" id="col-4">
+                <p id="clave">ACF-0905</p>Ecuaciones Diferenciales
+            </button>
+
+            <button class="materia fila1 mostrarModalBtn" data-modal="m5" id="col-5">
+                <p id="clave">SCC-1010</p>Graficacion
+            </button>
+
+            <button class="materia fila1 mostrarModalBtn" data-modal="m6" id="col-6">
+                <p id="clave">SCD-1016</p>Lenguajes y Automatas l
+            </button>
+
+            <button class="materia fila1 mostrarModalBtn" data-modal="m7" id="col-7">
+                <p id="clave">SCD-1016</p>Lenguajes y Automatas ll
+            </button>
+
+            <button class="materia fila1 mostrarModalBtn" data-modal="m8" id="col-8">
+                <p id="clave">AEB-1055</p>Programacion Web
+            </button>
+
+            <button class="materia fila2 mostrarModalBtn" data-modal="m9" id="col-1">
+                <p id="clave">AED-1285</p>Fundamentos de Programacion
+            </button>
+
+            <button class="materia fila2 mostrarModalBtn" data-modal="m10" id="col-2">
+                <p id="clave">AED-1286</p>Programacion Orientada a Objetos
+            </button>
+
+            <button class="materia fila2 mostrarModalBtn" data-modal="m11" id="col-3">
+                <p id="clave">AED-1026</p>Estructura de Datos
+            </button>
+
+            <button class="materia fila2 mostrarModalBtn" data-modal="m12" id="col-4">
+                <p id="clave">AED-1027</p>Topicos Avanzados de Programacion
+            </button>
+
+            <button class="materia fila2 mostrarModalBtn" data-modal="m13" id="col-5">
+                <p id="clave">AEC-1034</p>Fundamentos de Telecomunicaciones
+            </button>
+
+            <button class="materia fila2 mostrarModalBtn" data-modal="m14" id="col-6">
+                <p id="clave">SCD-1021</p> Redes de Computadoras
+            </button>
+
+            <button class="materia fila2 mostrarModalBtn" data-modal="m15" id="col-7">
+                <p id="clave">SCD-1004</p> Conmutacion y Enrutamiento de Redes de Datos
+            </button>
+
+            <button class="materia fila2 mostrarModalBtn" data-modal="m16" id="col-8">
+                <p id="clave">SCA-1002</p> Administracion de Redes
+            </button>
+
+            <button class="materia fila3 mostrarModalBtn" data-modal="m17" id="col-1">
+                <p id="clave">ACC-0906</p> Fundamentos de Investigacion
+            </button>
+            
+            <button class="materia fila3 mostrarModalBtn" data-modal="m18" id="col-2">
+                <p id="clave">ACF-0903</p> Algebra Lineal
+            </button>
+
+            <button class="materia fila3 mostrarModalBtn" data-modal="m19" id="col-3">
+                <p id="clave">AEC-1058</p> Quimica
+            </button>
+
+            <button class="materia fila3 mostrarModalBtn" data-modal="m20" id="col-4">
+                <p id="clave">SCC-1017</p> Metodos Numericos
+            </button>
+
+            <button class="materia fila3 mostrarModalBtn" data-modal="m21" id="col-5">
+                <p id="clave">AEC-1061</p> Sistemas Operativos
+            </button>
+
+            <button class="materia fila3 mostrarModalBtn" data-modal="m22" id="col-6">
+                <p id="clave">SCA-1026</p> Taller de Sistemas Operativos
+            </button>
+
+            <button class="materia fila3 mostrarModalBtn" data-modal="m23" id="col-7">
+                <p id="clave">ACA-0909</p> Taller de Investigacion l
+            </button>
+
+            <button class="materia fila3 mostrarModalBtn" data-modal="m24" id="col-8">
+                <p id="clave">ACA-0910</p> Taller de Investigacion ll
+            </button>
+
+            <button class="materia fila4 mostrarModalBtn" data-modal="m25" id="col-1">
+                <p id="clave">SHC-1024</p> Taller de Administracion
+            </button>
+
+            <button class="materia fila4 mostrarModalBtn" data-modal="m26" id="col-2">
+                <p id="clave">SCC-1005</p> Cultura Empresarial
+            </button>
+
+            <button class="materia fila4 mostrarModalBtn" data-modal="m27" id="col-3">
+                <p id="clave">AEC-1008</p> Contabilidad Financiera
+            </button>
+
+            <button class="materia fila4 mostrarModalBtn" data-modal="m28" id="col-4">
+                <p id="clave">AEF-1031</p> Fundamentos de Base de Datos
+            </button>
+
+            <button class="materia fila4 mostrarModalBtn" data-modal="m29" id="col-5">
+                <p id="clave">SCA-1025</p> Taller de Base de Datos
+            </button>
+
+            <button class="materia fila4 mostrarModalBtn" data-modal="m30" id="col-6">
+                <p id="clave">SCB-1001</p> Administracion de Base de Datos
+            </button>
+
+            <button class="materia fila4 mostrarModalBtn" data-modal="m31" id="col-7">
+                <p id="clave">SCC-1019</p> Programacion Logica y Funcional
+            </button>
+
+            <button class="materia fila4 mostrarModalBtn" data-modal="m32" id="col-8">
+                <p id="clave">SCC-1002</p> Inteligencia Artificial
+            </button>
+
+            <button class="materia fila5 mostrarModalBtn" data-modal="m33" id="col-1">
+                <p id="clave">ACA-0907</p> Taller de Etica
+            </button>
+
+            <button class="materia fila5 mostrarModalBtn" data-modal="m34" id="col-2">
+                <p id="clave">AEF-1052</p> Probabilidad y Estadistica
+            </button>
+
+            <button class="materia fila5 mostrarModalBtn" data-modal="m35" id="col-3">
+                <p id="clave">SCC-1013</p> Investigacion de Operaciones
+            </button>
+
+            <button class="materia fila5 mostrarModalBtn" data-modal="m36" id="col-4">
+                <p id="clave">SCD-1022</p> Simulacion
+            </button>
+
+            <button class="materia fila5 mostrarModalBtn" data-modal="m37" id="col-5">
+                <p id="clave">SCC-1007</p> Fundamentos de Ingenieria de Software
+            </button>
+
+            <button class="materia fila5 mostrarModalBtn" data-modal="m38" id="col-6">
+                <p id="clave">SCD-1011</p> Ingenieria de Software
+            </button>
+
+            <button class="materia fila5 mostrarModalBtn" data-modal="m39" id="col-7">
+                <p id="clave">SCG-1009</p> Gestion de Proyectos de Software
+            </button>
+
+            <button class="block">
+                <p id="clave">
+            </button>
+
+            <button class="materia fila6 mostrarModalBtn" data-modal="m40"  id="col-1">
+                <p id="clave">AEF-1041</p> Matematicas Discretas
+            </button>
+
+            <button class="materia fila6 mostrarModalBtn" data-modal="m41" id="col-2">
+                <p id="clave">SCF-1006</p> Fisica General
+            </button>
+
+            <button class="materia fila6 mostrarModalBtn" data-modal="m42" id="col-3">
+                <p id="clave">SCD-1018</p> Principios Electricos y Aplicaciones Digitales
+            </button>
+
+            <button class="materia fila6 mostrarModalBtn" data-modal="m43" id="col-4">
+                <p id="clave">SCD-1003</p> Arquitectura de Computadoras
+            </button>
+
+            <button class="materia fila6 mostrarModalBtn" data-modal="m44" id="col-5">
+                <p id="clave">ACD-0908</p> Desarrollo Sustentable
+            </button>
+
+            <button class="materia fila6 mostrarModalBtn" data-modal="m45" id="col-6">
+                <p id="clave">SCC-1014</p> Lenguajes de Interfaz
+            </button>
+             
+            <button class="materia fila6 mostrarModalBtn" data-modal="m46" id="col-7">
+                <p id="clave">SCC-1023</p> Sistemas Programables
+            </button>
+
+            <button class="block" >
+                <p id="clave">
+            </button>
+        </div>
+    </div>
+    <div id="m1" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" data-modal="m1">X</span>
+            <h2>Calculo Diferencial</h2>
+            <table class="info_materias">
+                <tr>
+                    <th>Objetivo</th>
+                    <th>Mision</th>
+                    <th>Vision</th>
+                </tr>
+                <tr>
+                    <td> Proporcionar las herramientas matemáticas necesarias para comprender y 
+                    resolver problemas que involucran la tasa de cambio y la derivación de funciones, preparándolos 
+                    para aplicar estos conceptos en diversas disciplinas académicas y profesionales.</td>
+                    <td>Comprender y aplicar los conceptos fundamentales del cálculo diferencial para analizar y
+                    resolver problemas relacionados con el cambio y la tasa de variación en funciones matemáticas. </td>
+                    <td>Desarrollar la capacidad de modelar y optimizar fenómenos del mundo real a través de 
+                    técnicas de cálculo diferencial, promoviendo la habilidad para abordar desafíos matemáticos y científicos.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="m2" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" data-modal="m2">X</span>
+            <h2>Calculo Integral</h2>
+            <table class="info_materias">
+                <tr>
+                    <th>Objetivo</th>
+                    <th>Mision</th>
+                    <th>Vision</th>
+                </tr>
+                <tr>
+                    <td>
+                        Esstudiantes adquieran la
+                        capacidad de comprender y aplicar conceptos de integral, resolviendo problemas matemáticos y
+                        científicos de manera efectiva.
+                    </td>
+                    <td>
+                        La materia de Cálculo Integral tiene como misión enseñar a los estudiantes
+                        las técnicas y conceptos fundamentales del cálculo integral, preparándolos para
+                        aplicar estas habilidades en diversos campos académicos y profesionales.
+                    </td>
+                    <td>
+                        La visión de la materia es convertirse en un pilar esencial en la formación matemática y
+                        científica, promoviendo la creatividad y el pensamiento crítico para resolver problemas del mundo real.
+                    </td>
+                </tr>
+            </table>
+        </div>    
+    </div>
+        <div id="m3" class="modal">
+            <div class="modal-contenido">
+                <span class="cerrar" data-modal="m3">X</span>
+                <h2>Calculo Vectorial</h2>
+                <table class="info_materias">
+                    <tr>
+                        <th>Objetivo</th>
+                        <th>Mision</th>
+                        <th>Vision</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Capacitar a los estudiantes en el cálculo y manipulación de vectores, preparándolos para aplicaciones en física, ingeniería y ciencias.
+
+                        </td>
+                        <td>
+                            Facilitar el entendimiento de conceptos matemáticos avanzados relacionados con vectores y campos, fundamentales en diversas disciplinas.
+
+                        </td>
+                        <td>
+                            Ser la fuente de conocimiento esencial para aquellos que deseen abordar problemas matemáticos y físicos multidimensionales.
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="m4" class="modal">
+            <div class="modal-contenido">
+                <span class="cerrar" data-modal="m4">X</span>
+                <h2></h2>
+                <table class="info_materias">
+                    <tr>
+                        <th>Objetivo</th>
+                        <th>Mision</th>
+                        <th>Vision</th>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="" class="modal">
+            <div class="modal-contenido">
+                <span class="cerrar" data-modal="m2">X</span>
+                <h2></h2>
+                <table class="info_materias">
+                    <tr>
+                        <th>Objetivo</th>
+                        <th>Mision</th>
+                        <th>Vision</th>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="" class="modal">
+            <div class="modal-contenido">
+                <span class="cerrar" data-modal="m2">X</span>
+                <h2></h2>
+                <table class="info_materias">
+                    <tr>
+                        <th>Objetivo</th>
+                        <th>Mision</th>
+                        <th>Vision</th>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="" class="modal">
+            <div class="modal-contenido">
+                <span class="cerrar" data-modal="m2">X</span>
+                <h2></h2>
+                <table class="info_materias">
+                    <tr>
+                        <th>Objetivo</th>
+                        <th>Mision</th>
+                        <th>Vision</th>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="" class="modal">
+            <div class="modal-contenido">
+                <span class="cerrar" data-modal="m2">X</span>
+                <h2></h2>
+                <table class="info_materias">
+                    <tr>
+                        <th>Objetivo</th>
+                        <th>Mision</th>
+                        <th>Vision</th>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="" class="modal">
+            <div class="modal-contenido">
+                <span class="cerrar" data-modal="m2">X</span>
+                <h2></h2>
+                <table class="info_materias">
+                    <tr>
+                        <th>Objetivo</th>
+                        <th>Mision</th>
+                        <th>Vision</th>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script src="../../Scripts/modal.js"></script>
+</body>
+</html>
+

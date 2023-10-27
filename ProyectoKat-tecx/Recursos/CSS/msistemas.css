@@ -1,0 +1,53 @@
+﻿.content-menu {
+    text-align: center;
+    width: 97%  ;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: aqua;
+    background-color:darkolivegreen;
+}
+.img-fondo{
+    width:100%;
+    height:800px;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+    float:left;
+}
+select {
+    /* Reset */
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    width: 15em;
+    height: 3em;
+    padding: 5px;
+    color: black;
+    border-radius: 0.25em;
+    cursor: pointer;
+    background-color: white;    
+    text-align:center;
+}
+/* <option> colors */
+option {
+    color: inherit;
+    background-color: var(--option-bg);
+}
+
+.maestro {
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    width: 15em;
+    height: 3.005em;
+    border-radius: 0.25em;
+    background-color:white;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+}
